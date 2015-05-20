@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/dmitryrybakov/WebRTC"
+  s.homepage     = "https://github.com/dmitryrybakov/webrtc-ios"
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See http://choosealicense.com for more info.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = "dmitryrybakov"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/dmitryrybakov/WebRTC.git" }
+  s.source       = { :git => "https://github.com/dmitryrybakov/webrtc-ios.git" }
 
   s.source_files  = "headers/*.h"
   s.public_header_files = "headers/*.h"
